@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img  id="bulb"  src="on.jpg">
+        <button onclick="bulb(1)"> show</button>
+        <button onclick="bulb(2)" >hide</button>
+<script>
+    function bulb(a){
+        if(a==1)
+        document.getElementById("bulb").style.display="none";
+    else
+    document.getElementById("bulb").style.display="block";
+}
+</script>
+</body>
+</html>
